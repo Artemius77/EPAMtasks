@@ -15,40 +15,30 @@ public class MainController {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         // Display menu graphics
-        System.out.println("============================");
-        System.out.println("|   MENU SELECTION DEMO    |");
-        System.out.println("============================");
-        System.out.println("| Options:                 |");
-        System.out.println("|        1. Diagnosis      |");
-        System.out.println("|        2. Sort           |");
-        System.out.println("|        3. Print ALL      |");
-        System.out.println("|        4. Range          |");
-        System.out.println("|        5. Quit           |");
-        System.out.println("============================");
-        System.out.println("Select options");
+       controller.getView().printMenu();
 
         loop:
         while (true) {
 
             switch (Integer.parseInt(reader.readLine())) {
                 case 1:
-                    System.out.println("Input diagnosis");
+                    System.out.println(controller.getView().INPUT);
                     String diagnosis = reader.readLine();
                     controller.getByDiagnosis(diagnosis);
                     controller.updateView();
                     break;
                 case 2:
-                    System.out.println("Patients sorted by alphabet");
+                    System.out.println(controller.getView().SORTED);
                     controller.sortedByLastName();
                     controller.updateView();
                     break;
                 case 3:
-                    System.out.println("All patients");
+                    System.out.println(controller.getView().ALL);
                     controller.getAll();
                     controller.updateView();
                     break;
                 case 4:
-                    System.out.println("Choose patients range:");
+                    System.out.println(controller.getView().RANGE);
                     System.out.println("From: ");
                     Integer from = Integer.parseInt(reader.readLine());
                     System.out.println("To: ");
@@ -57,10 +47,10 @@ public class MainController {
                     controller.updateView();
                     break;
                 case 5:
-                    System.out.println("Exit selected");
+                    System.out.println(controller.getView().EXIT);
                     break loop;
                 default:
-                    System.out.println("Invalid selection");
+                    System.out.println(controller.getView().INVALID);
             }
         }
     }

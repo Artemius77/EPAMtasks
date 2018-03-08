@@ -27,7 +27,6 @@ public class Controller {
         model.setArray(model.sortByLastName());
     }
 
-
     public void getAll(){
         model.setArray(model.getAllPatients());
     }
@@ -36,4 +35,7 @@ public class Controller {
         view.printPatients(model.getArray());
     }
 
+    public GeneralView getView() {
+        return view;
+    }
 }

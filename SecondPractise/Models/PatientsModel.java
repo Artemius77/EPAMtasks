@@ -1,7 +1,7 @@
 package SecondPractise.Models;
 
 import SecondPractise.interfaces.GeneralModel;
-import SecondPractise.objects.Patient;
+import SecondPractise.Models.objects.Patient;
 
 import java.util.Arrays;
 import java.util.Comparator;

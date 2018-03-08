@@ -12,6 +12,7 @@ import SecondPractise.interfaces.GeneralView;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Formatter;
 
 public class MainTask {
 
@@ -23,11 +24,10 @@ public class MainTask {
         GeneralView view = new PatientsView();
         Controller controller = new Controller(model,view);
         MainController mainController = new MainController(controller);
-        mainController.execute();
 
     }
 
-
+//17
+    // Menu -> View
 }
-
 

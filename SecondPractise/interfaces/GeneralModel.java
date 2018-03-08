@@ -1,6 +1,6 @@
 package SecondPractise.interfaces;
 
-import SecondPractise.objects.Patient;
+import SecondPractise.Models.objects.Patient;
 
 public interface GeneralModel {
 

@@ -1,7 +1,7 @@
 package SecondPractise.Models;
 
 import SecondPractise.interfaces.Creator;
-import SecondPractise.objects.Patient;
+import SecondPractise.Models.objects.Patient;
 
 public class PatientsCreator implements Creator{
 
