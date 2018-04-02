@@ -1,0 +1,7 @@
+name:Abigaile lastName:Swan midleName:Car adress:Backstreet-22 number:8055394 cardNumber:345 diagnosis:cancer
+name:Josh lastName:Bak midleName:Dul adress:Ilicha-17 number:4345345 cardNumber:7 diagnosis:flu
+name:Drake lastName:Bak midleName:Dul adress:Ilicha-17 number:4345345 cardNumber:7 diagnosis:cancer
+name:Mike lastName:Bak midleName:Dul adress:Ilicha-17 number:4345345 cardNumber:17 diagnosis:dhiarea
+name:Gosh lastName:Bak midleName:Dul adress:Ilicha-17 number:4345345 cardNumber:72 diagnosis:caught
+name:Sosh lastName:Bak midleName:Dul adress:Ilicha-17 number:4345345 cardNumber:47 diagnosis:flu
+name:Ivan lastName:Bak midleName:Dul adress:Ilicha-17 number:4345345 cardNumber:777 diagnosis:cancer
